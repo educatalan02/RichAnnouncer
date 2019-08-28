@@ -1,7 +1,7 @@
 ﻿using Rocket.API;
 using System.Collections.Generic;
 
-namespace RichAnnouncer
+namespace educatalan02.RichAnnouncer
 {
     public class Configuration : IRocketPluginConfiguration
     {

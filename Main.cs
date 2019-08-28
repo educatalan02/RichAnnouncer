@@ -1,15 +1,13 @@
 ﻿using Rocket.Core.Plugins;
 using SDG.Unturned;
-using System;
+
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using Logger = Rocket.Core.Logging.Logger;
 using UnityEngine;
 
-namespace RichAnnouncer
+namespace educatalan02.RichAnnouncer
 {
     public class Main : RocketPlugin<Configuration>
     {
