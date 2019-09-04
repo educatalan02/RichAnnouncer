@@ -14,7 +14,7 @@ namespace educatalan02.RichAnnouncer
 
 
 
-        private int index;
+        private int index = 0;
 
         protected override void Load()
         {
@@ -35,8 +35,12 @@ namespace educatalan02.RichAnnouncer
 
         private IEnumerator<WaitForSeconds> Count()
         {
-            PrintMessages();
-            yield return new WaitForSeconds((float)Configuration.Instance.IntervalSecs);
+            while (true)
+            {
+                PrintMessages();
+                yield return new WaitForSeconds((float)Configuration.Instance.IntervalSecs);
+            }
+            
         }
 
 
@@ -44,6 +48,8 @@ namespace educatalan02.RichAnnouncer
         private void PrintMessages()
         {
             
+
+            if (index >= Configuration.Instance.Messages.Count) { index = 0; }
             Message message = Configuration.Instance.Messages[index];
 
             
