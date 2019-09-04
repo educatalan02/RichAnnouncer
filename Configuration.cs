@@ -21,14 +21,14 @@ namespace educatalan02.RichAnnouncer
             {
                 new Message
                 {
-                    MessageText = "{color=red}REDSTONEPLUGINS{/color} {color=yellow}GLOW PLUGINS{/color}",
-                    Img = "https://imgur.com/a/vJPuBeM"
+                    MessageText = "{size=20}WARNING{/size} {color=red}REDSTONEPLUGINS{/color} {color=cyan}Supports{/color} {i}{b}{color=purple}RichText{/color}{/b}{/i}",
+                    Img = "https://i.imgur.com/mTOsvly.png"
 
                 },
                 new Message
                 {
                     MessageText = "{size=15}{b}SIZE ALLOWED{/b}{/size}",
-                    Img = "https://imgur.com/a/vJPuBeM"
+                    Img = "https://i.imgur.com/mTOsvly.png"
 
                 }
             };
